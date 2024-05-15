@@ -1,19 +1,28 @@
-import 'package:flutter/material.dart';
+// ignore_for_file: prefer_const_constructors
 
-import 'pages/todo_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_application_1/pages/todo_page.dart';
+import 'package:flutter_application_1/pages/greet_page.dart';
 
 void main() {
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ToDoPage(),
+      home: const GreetPage(),
+      routes: {
+        '/todopage': (context) => ToDoPage(
+              greetingMessage:
+                  'Hello', // Adjust the greeting message as needed
+            ),
+        '/greetpage': (context) => const GreetPage(),
+      },
     );
   }
 }
