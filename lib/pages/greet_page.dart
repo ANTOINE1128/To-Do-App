@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/pages/todo_page.dart';
+import 'package:flutter_application_1/pages/home_page.dart';
 
 class GreetPage extends StatefulWidget {
   const GreetPage({Key? key}) : super(key: key);
@@ -21,7 +21,7 @@ class _GreetPageState extends State<GreetPage> {
       Navigator.push(
         context,
         MaterialPageRoute(
-          builder: (context) => ToDoPage(greetingMessage: greetingMessage),
+            builder: (context) => HomePage(greetingMessage: greetingMessage),
         ),
       );
     } else {
@@ -33,6 +33,7 @@ class _GreetPageState extends State<GreetPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.greenAccent,
       body: Center(
         child: Padding(
           padding: const EdgeInsets.all(25.0),
