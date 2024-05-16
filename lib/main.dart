@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: GreetPage(),
       theme: ThemeData(
-        primarySwatch: Colors.green,
+        secondaryHeaderColor: Colors.green,
       ),
       routes: {
         '/todopage': (context) => HomePage(
