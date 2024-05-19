@@ -31,14 +31,14 @@
 **[To-Do-App]**  is a project that will allow you to create a List of tasks that will be executed . It is supported by All the Operating sythemes (Windows, Mac, Linux, Android, IOS).
 ## 🛠 Built With <a name="built-with"></a>
 
-- **[FLUTTER]**
+- **[Dart]**
 - **[HIVE]**
-
+-
 ## Additional Tools
 
 - Android Emulator
 - Dart_tool
-
+- Flutter
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -56,7 +56,9 @@ In order to clone this project you need:
 git clone https://github.com/ANTOINE1128/To-Do-App.git
 
 - Clone this repository to your desired folder:
+
 In the lib Folder go to main.dart file:
+
 - Right click on it then press Run Without Debugging
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
