@@ -51,15 +51,15 @@ To get a local copy up and running, follow these steps.
 In order to clone this project you need:
  ### Setup
 -  go to your terminal 
-- write this command line : 
+- write this command line: 
 
 git clone https://github.com/ANTOINE1128/To-Do-App.git
 
 - Clone this repository to your desired folder:
 
-In the lib Folder go to main.dart file:
+In the lib Folder :
 
-- Right click on it then press Run Without Debugging
+- Right click on main.dart then press Run Without Debugging
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
